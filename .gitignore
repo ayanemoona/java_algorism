@@ -1,2 +1,9 @@
-*.class
+# Java
 bin/
+*.class
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
