@@ -5,7 +5,7 @@ public class BOJ_1874{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        int A[] new int[N];
+        int A[] = new int[N];
         for(int i = 0; i<N; i++){
             A[i] = sc.nextInt();
         }
@@ -13,12 +13,12 @@ public class BOJ_1874{
         int num = 1;
         boolean result = true;
         StringBuffer bf = new StringBuffer();
-        for(int i=0; i<A.lenth; i++){
+        for(int i=0; i<A.length; i++){
             int su = A[i];
             if(su >= num) {
                 while(su >= num){
                     stack.push(num++);
-                    bf.append("+\n")
+                    bf.append("+\n");
                 }
                 stack.pop();
                 bf.append("-\n");
