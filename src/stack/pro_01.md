@@ -125,4 +125,56 @@ while로 해결 가능
 
 Queue<Integer> 이름 = new LinkedList<>();
 
+# Java 자료구조 함수 정리
+
+| 자료구조      | 추가                          | 제거                        | 조회                        | 크기         | 비었는지      | 포함여부          |
+| --------- | --------------------------- | ------------------------- | ------------------------- | ---------- | --------- | ------------- |
+| 배열(Array) | X                           | X                         | arr[i]                    | arr.length | X         | 직접 탐색         |
+| ArrayList | add()                       | remove()                  | get()                     | size()     | isEmpty() | contains()    |
+| Stack     | push()                      | pop()                     | peek()                    | size()     | isEmpty() | contains()    |
+| Queue     | offer()                     | poll()                    | peek()                    | size()     | isEmpty() | contains()    |
+| Deque     | offerFirst()<br>offerLast() | pollFirst()<br>pollLast() | peekFirst()<br>peekLast() | size()     | isEmpty() | contains()    |
+| Set       | add()                       | remove()                  | X                         | size()     | isEmpty() | contains()    |
+| Map       | put()                       | remove()                  | get()                     | size()     | isEmpty() | containsKey() |
+
+# 자주 쓰는 것
+
+배열 길이
+
+arr.length
+
+리스트 길이
+
+size()
+
+마지막 값
+
+get(size()-1)
+
+정렬
+
+Arrays.sort(arr)
+
+Collections.sort(list)
+
+최대값
+
+Math.max(a,b)
+
+최소값
+
+Math.min(a,b)
+
+절대값
+
+Math.abs(a)
+
+문자열 → 숫자
+
+Integer.parseInt(str)
+
+숫자 → 문자열
+
+String.valueOf(num)
+
  
