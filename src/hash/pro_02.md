@@ -1,6 +1,6 @@
-# [프로그래머스 - 해시 - 완주하지 못한 선수 ] 
+# [프로그래머스 - 해시 - 폰켓몬 ] 
 
-- **문제 링크:** [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576?language=java)
+- **문제 링크:** [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
 - **상태:** 비효율 
 - **복습 필요:** Y
 
