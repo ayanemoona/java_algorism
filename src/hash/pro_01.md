@@ -8,7 +8,8 @@
 
 ## 1. 문제 설명
 
-단 한명의 선수를 제외하고 모든 선수가 마라톤을 완주함
+
+- 단 한명의 선수를 제외하고 모든 선수가 마라톤을 완주함
 이때 문제에선 마라톤 참여 선수 명단 배열과 완주 선수 명단 배열을 주어질 때 
 완주하지 못한 서수의 이름을 return 해라 
 동명이인 있을 수 있음 (중복 체크 필요)
@@ -54,7 +55,7 @@ public String solution(String[] participant, String[] completion) {
 ---
 
 ## 4. 올바른 접근 풀이
--  
+
 ```
 import java.util.HashMap;
 
